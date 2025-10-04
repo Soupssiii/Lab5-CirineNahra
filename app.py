@@ -1,3 +1,4 @@
+from database import insert_user, get_users, get_user_by_id, update_user, delete_user
 from flask import Flask, request, jsonify #added to top of file
 from flask_cors import CORS #added to top of file
 app =Flask(__name__)
